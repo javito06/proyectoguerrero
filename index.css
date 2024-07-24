@@ -2,14 +2,14 @@ body{
     margin: 20px;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-    background-color: white;
+    background-color: rgb(24, 131, 158);
 
 }
 .navbar{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    background-color: red;
+    background-color: rgb(15, 75, 114);
     border-radius: 20px;
     height: 100px;
 }
@@ -38,7 +38,7 @@ body{
 .navlist a{
     text-decoration: none;
     border-radius: 20px;
-    color: white;
+    color: rgb(248, 241, 241);
 }
 .navlist li:hover{
     background-color: rgb(153, 107, 107);
@@ -52,7 +52,7 @@ body{
 .footer-container{
     display: flex;
     justify-content: space-evenly;
-    background-color: red;
+    background-color: rgb(27, 173, 130);
     border-radius: 20px;
     height: 100px;
     align-content: center;
@@ -103,7 +103,7 @@ body{
     justify-content: center;
     align-items: center;
     align-content: center;
-    width: 33%;
+    width: 39%;
 }
 .logo-footer img{
     width: 100px;
