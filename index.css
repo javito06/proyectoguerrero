@@ -65,16 +65,6 @@ body{
     justify-content: space-evenly;
     list-style: none;
 }
-.body-content{
-    display: grid;
-    grid-template-areas:
-        "ol             p"     
-        "p2     estoico2 "  
-        "estoico estoico3";
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
-    gap: 10px;
-}
 .olContainer{
     grid-area:ol ;
 }
@@ -110,4 +100,10 @@ body{
     height: 100px;
     border-radius: 20px 0px 20px 0px;
 
+}
+.body-content{
+    color: aqua;
+}
+.p{
+    color: blue;
 }
